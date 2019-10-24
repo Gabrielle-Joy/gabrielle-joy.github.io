@@ -3,14 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>GJ Profile</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous">
     </head>
 <body>
     <div class="container">
 
         <header>
-            <h1>Gabrielle Joy Higgins</h1>
-            <p>Computer Scientist</p>
+            <div>
+                <h1>Gabrielle Joy Higgins</h1>
+                <p>Computer Scientist</p>
+            </div> 
         </header>
     
         <aside class="sidebar">
@@ -20,43 +24,48 @@
             </div>
 
             <div class="contact">
-                <div class="info">
-                    <img src="./images/call-answer.png" alt="" class="phone">
-                    <p>(876) 357-7421</p>
-                </div>
-                <div class="info">
-                    <img src="./images/envelope.png" alt="" class="mail">
-                    <p>gabriellehiggins7312@gmail.com</p>
-                </div>
-                <div class="info">
-                    <img src="images/world.png" alt="" class="website">
-                    <p>https://gabrielle-joy.github.io/</p>
-                </div>
+                <h2>Contact</h2>
+                <ul>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        (876) 357-7421
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        gabzi.contact@gmail.com
+                    </li>
+                    <li>
+                        <i class="fas fa-globe-americas"></i>
+                        https://gabrielle-joy.github.io/
+                    </li>
+                </ul>
             </div>
-
+            <hr>
             <div class="social-media">
-                <div class="info">
-                    <img src="./images/facebook.png" alt="" class="fb">
-                    <p>https://www.facebook.com/GabrielleJoyHiggins</p>
-                </div>
-                <div class="info">
-                    <img src="./images/instagram.png" alt="" class="insta">
-                    <p>https://www.instagram.com/gabzilove/</p>
-                </div>
-                <div class="info">
-                    <img src="./images/twitter.png" alt="" class="twitter">
-                    <p>https://twitter.com/gabziloves</p>
-                </div>
-                <div class="info">
-                    <img src="./images/linkedin.png" alt="" class="linkedin">
-                    <p>https://www.linkedin.com/in/gabrielle-higgins/</p>
-                </div>
+                <h2>Social Media</h2>
+                <ul>
+                    <li>
+                        <i class="fab fa-facebook-square"></i>
+                        <a href="https://www.facebook.com/GabrielleJoyHiggins">facebook.com/Gabrielle</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                        <a href="https://www.instagram.com/gabzilove/">instagram.com/gabzilove/</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/gabziloves">twitter.com/gabziloves</a>
+                    </li>
+                    <li>
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/gabrielle-higgins/">linkedin.com/in/gabrielle</a>
+                    </li>
+                </ul>
             </div>
-
         </aside>
         
         <article class="main">
-            <div class="bio">
+            <div class="bio line">
                 <h2>Biography</h2>
                 <p>
                     My name is Gabrielle Higgins. I am a third year 
@@ -64,60 +73,74 @@
                     West Indies.
                 </p>
             </div>
-            <div class="work">
+            <div class="work line">
                 <h2>WORK EXPERIENCE</h2>
-                <div class="job">
+                <div class="flex job">
                     <div class="date">
                         <p>2019-2020</p>
                     </div>
-                    <div class="job-details">
-                        <h3>Job/Position</h3>
-                        <p>Details</p>
+                    <div class="details">
+                        <h3>Computing Department Assistant Lab Technician</h3>
+                        <p>
+                            Graded Python and Java Labs. Provided technical 
+                            assistance to lecturers. Assisted students with 
+                            programming challenges.
+                        </p>
                     </div>
                 </div>
-                <div class="job">
+                <div class="flex job">
                     <div class="date">
-                        <p>2019</p>
+                        <p>2019-2020</p>
                     </div>
-                    <div class="job-details">
-                        <h3>Job/Position</h3>
-                        <p>Details</p>
+                    <div class="details">
+                        <h3>Software Developer Intern</h3>
+                        <p>
+                            Created Hackerrank questions for first year programming 
+                            courses: COMP1126 and COMP1127 (Introduction to 
+                            Computing I & II); and 2nd year computing course: 
+                            COMP2211 (Analysis of Algorithms) under the supervision 
+                            of Professor Daniel Coore.
+                        </p>
                     </div>
                 </div>
             </div>
-            <div class="edu">
-                <div class="degree">
+            <div class="edu line">
+                <h2>EDUCATION</h2>
+                <div class="flex degree">
                     <div class="date">
                         <p>2017-2020</p>
                     </div>
-                    <div class="degree-details">
-                        <h3>Degree</h3>
-                        <p>Details</p>
+                    <div class="details">
+                        <h3>BSc Computer Science</h3>
+                        <p>The University of the West Indies, Mona</p>
                     </div>
                 </div>
-                <div class="degree">
-                        <div class="date">
-                            <p>2017-2020</p>
-                        </div>
-                        <div class="degree-details">
-                            <h3>Degree</h3>
-                            <p>Details</p>
-                        </div>
+                <div class="flex degree">
+                    <div class="date">
+                        <p>2009-2014</p>
                     </div>
+                    <div class="details">
+                        <h3>High School Diploma</h3>
+                        <p>Immaculate Conception High School</p>
+                    </div>
+                </div>
             </div>
             <div class="skills">
-                <ul class="left">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                </ul>
-                <ul class="right">
-                    <li>SQL</li>
-                    <li>Git</li>
-                    <li>jQuery</li>
-                    <li>Python</li>
-                </ul>
+                <h2>SKILLS/EXPERTISE</h2>
+                <div class="flex">
+                    <ul class="left">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                    </ul>
+                    <ul class="right">
+                        <li>SQL</li>
+                        <li>Git</li>
+                        <li>jQuery</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
             </div>
         </article>
 
