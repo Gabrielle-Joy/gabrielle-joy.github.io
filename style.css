@@ -1,5 +1,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word;
 }
 
 .container {
@@ -129,7 +130,14 @@ div h2 {
 }
 
 .date{
-    margin-right: 50px;
+    margin-right: 10px;
+    width: 200px;
+    float: left;
+    align-self: flex-start;
+}
+
+.date p {
+    position: relative;
 }
 
 div.details {
